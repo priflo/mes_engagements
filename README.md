@@ -10,7 +10,9 @@ This is a showcase page with no interactive features.
 To view the project locally, follow these steps:
 
 1. Clone the repository to your local machine using the command:
-   ```git clone https://github.com/priflo/mes_engagements.git```
+   ```
+   git clone https://github.com/priflo/mes_engagements.git
+   ```
    
 2. Open the project folder in your preferred IDE (e.g., VSCode).
 
