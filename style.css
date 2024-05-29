@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/********** HEADER **********/
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.logo {
+    width: 50%;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 2rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+/********** MAIN **********/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 20px;
+}
+
+main div {
+    border: 2px solid #CE0033;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #F1F5F8;
+}
+
+h2 {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    background-color: #CE0033;
+    height: 4rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+ul {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+li{
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
